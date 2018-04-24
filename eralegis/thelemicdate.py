@@ -52,5 +52,7 @@ luna = str(moon).split(' ')
 luna_sign = luna[1]
 luna_arc = luna[2].split(':')[0].replace('+', '')
 
-retorno = f'☉ in {solis_arc}º {signs[solis_sign]} ☽ in {luna_arc}º {signs[luna_sign]} Dies {dies[ev_weekday]} Anno {na_year} æræ novæ'
-print(f'☉ in {solis_arc}º {signs[solis_sign]} ☽ in {luna_arc}º {signs[luna_sign]} Dies {dies[ev_weekday]} Anno {na_year} æræ novæ')
+print(f'☉ in {solis_arc}º {signs[solis_sign]} '
+      f'☽ in {luna_arc}º {signs[luna_sign]} '
+      f'Dies {dies[ev_weekday]} '
+      f'Anno {na_year} æræ novæ')
