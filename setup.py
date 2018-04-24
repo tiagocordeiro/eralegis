@@ -138,7 +138,7 @@ setup(
         "Development Status :: 4 - Beta",
         "Environment :: Web Environment",
         "Intended Audience :: Developers",
-        "License :: OSI Approved :: MIT License",
+        "License :: OSI Approved :: MIT",
         "Operating System :: OS Independent",
         "Programming Language :: Python",
         "Framework :: Paste",
