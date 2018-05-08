@@ -44,7 +44,7 @@ def now():
     ev_today = str(date.today().strftime('%Y/%m/%d'))
     ev_time = str(time.strftime('%H:%M'))
 
-    na_date = Datetime(ev_today, ev_time, '+03:00')
+    na_date = Datetime(ev_today, ev_time, '-03:00')
     pos = GeoPos('23s39', '46w32')
     chart = Chart(na_date, pos)
 
