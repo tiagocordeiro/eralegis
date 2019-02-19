@@ -10,7 +10,7 @@ pluggy==0.8.0
 py==1.7.0
 pycodestyle==2.4.0
 pyflakes==2.0.0
-pytest==4.0.2
+pytest==4.3.0
 requests==2.21.0
 requests-toolbelt==0.8.0
 six==1.12.0
