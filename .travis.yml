@@ -1,13 +1,18 @@
 language: python
 python:
-  - "3.6.4"
+  - "3.7-dev"
+
 # command to install dependencies
-install: "pip install -r requirements-dev.txt"
+install:
+  - pip install -r requirements-dev.txt codecov
+
 # command to run tests
 script:
-  - flake8
-  - pytest tests/
+  - flake8 .
+  - pycodestyle .
+  - coverage run -m pytest .
+#  - coverage run -m pytest --doctest-glob='*.md'
 #  - py.test --cov=pytocli tests/
 #  - python -m doctest README.md
-# after_success:
-#  - coveralls
+ after_success:
+  - codecov

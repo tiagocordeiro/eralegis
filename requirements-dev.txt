@@ -1,21 +1,24 @@
-attrs==19.2.0
-certifi==2019.9.11
+attrs==19.3.0
+certifi==2019.11.28
 chardet==3.0.4
-flake8==3.7.8
+flake8==3.7.9
 idna==2.8
 mccabe==0.6.1
-more-itertools==7.2.0
+more-itertools==8.1.0
 pkginfo==1.5.0.1
-pluggy==0.13.0
-py==1.8.0
+pluggy==0.13.1
+py==1.8.1
 pycodestyle==2.5.0
 pyflakes==2.1.1
-pytest==5.2.1
+pytest==5.3.2
 requests==2.22.0
 requests-toolbelt==0.9.1
-six==1.12.0
-tqdm==4.36.1
-twine==2.0.0
-urllib3==1.25.6
+six==1.13.0
+tqdm==4.41.1
+twine==3.1.1
+urllib3==1.25.7
+
+# Coverage
+coverage==5.0.3
 
 -r requirements.txt
