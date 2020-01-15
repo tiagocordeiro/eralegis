@@ -9,10 +9,7 @@ install:
 script:
   - flake8 .
   - pycodestyle .
-  - coverage run -m pytest .
-#  - coverage run -m pytest --doctest-glob='*.md'
-#  - py.test --cov=pytocli tests/
-#  - python -m doctest README.md
+  - coverage run -m pytest -v --doctest-glob='*.md'
 
 after_success:
   - codecov
