@@ -19,6 +19,6 @@ twine==3.2.0
 urllib3==1.25.10
 
 # Coverage
-coverage==5.3
+coverage==5.4
 
 -r requirements.txt
