@@ -4,7 +4,7 @@ chardet==3.0.4
 flake8==3.8.4
 idna==2.10
 mccabe==0.6.1
-more-itertools==8.5.0
+more-itertools==8.7.0
 pkginfo==1.5.0.1
 pluggy==0.13.1
 py==1.9.0
