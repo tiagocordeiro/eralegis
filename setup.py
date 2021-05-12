@@ -139,7 +139,6 @@ setup(
     ],
     zip_safe=False,
     install_requires=[
-        'flatlib>=0.2.1',
-        'pyswisseph>=2.0.0.post2',
+        'flatlib>=0.2.3',
     ]
 )
