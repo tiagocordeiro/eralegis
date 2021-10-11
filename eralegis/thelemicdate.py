@@ -65,10 +65,28 @@ def now():
 
 
 def in_day(year, month, day, hour, minute):
+    """ Função retorna data thelemica de um dia e horário especifico
+
+    :param year: Ano
+    :param month: Mês
+    :param day: Dia
+    :param hour: Hora
+    :param minute: Minuto
+    :return: a data thelemica dos dados passados
+    """
     ev_in_day_weekday = date(year, month, day).weekday()
     ev_in_day_date = str(date(year, month, day).strftime('%Y/%m/%d'))
     ev_in_day_time = f'{hour}:{minute}'
     ev_in_day_na_year = int(year) - 1904
+
+    # New Aeon "generation" of 22 years
+    ciclo_i = ev_in_day_na_year // 22
+
+    # // Years in the current cycle
+    ciclo_ii = int(year) - 1904 - (ciclo_i * 22)
+
+    # New Aeon year
+    na_year = numerals[ciclo_ii].upper() + ':' + numerals[ciclo_i]
 
     na_date = Datetime(ev_in_day_date, ev_in_day_time, '-03:00')
     pos = GeoPos('23s39', '46w32')
@@ -87,7 +105,7 @@ def in_day(year, month, day, hour, minute):
     return (f'☉ in {solis_arc}º {signs[solis_sign]} '
             f'☽ in {luna_arc}º {signs[luna_sign]} '
             f'Dies {dies[ev_in_day_weekday]} '
-            f'Anno {ev_in_day_na_year} æræ novæ')
+            f'Anno {na_year} æræ novæ')
 
 
 if __name__ == '__main__':
