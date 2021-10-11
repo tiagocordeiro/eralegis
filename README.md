@@ -31,6 +31,6 @@ $ python
 '☉ in ... ☽ in ... Dies ... Anno ... æræ novæ'
 
 >>> thelemicdate.in_day(1905, 4, 8, 12, 30)
-'☉ in 18º ♈ ☽ in 28º ♉ Dies Saturnii Anno 1 æræ novæ'
+'☉ in 18º ♈ ☽ in 28º ♉ Dies Saturnii Anno I:0 æræ novæ'
 
 ```
