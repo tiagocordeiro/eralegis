@@ -1,6 +1,6 @@
 # EraLegis
 
-[![Build Status](https://travis-ci.org/tiagocordeiro/eralegis.svg?branch=master)](https://travis-ci.org/tiagocordeiro/eralegis)
+[![Python application](https://github.com/tiagocordeiro/eralegis/actions/workflows/python-app.yml/badge.svg)](https://github.com/tiagocordeiro/eralegis/actions/workflows/python-app.yml)
 [![Updates](https://pyup.io/repos/github/tiagocordeiro/eralegis/shield.svg)](https://pyup.io/repos/github/tiagocordeiro/eralegis/)
 [![Python 3](https://pyup.io/repos/github/tiagocordeiro/eralegis/python-3-shield.svg)](https://pyup.io/repos/github/tiagocordeiro/eralegis/)
 [![codecov](https://codecov.io/gh/tiagocordeiro/eralegis/branch/master/graph/badge.svg)](https://codecov.io/gh/tiagocordeiro/eralegis)
